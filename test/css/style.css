@@ -1,0 +1,38 @@
+html,
+body {
+    height: 100%;
+}
+
+.form{
+width:300px;
+}
+.btn {
+    padding: .8rem 2.2rem;
+    font: normal 500 16px/20px;
+    position: relative;
+    border: 3px solid transparent;
+}
+
+.btn .btn-primary {
+    background-clip: padding-box;
+    color: whitesmoke;
+    font-weight: 500;
+    transition: background .6s ease;
+    margin-bottom: 10%;
+}
+
+.btn.btn-primary:hover {
+    background: whitesmoke;
+    color: black;
+    font-weight: 500;
+}
+.messagecontainer{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a:hover{
+    text-decoration: underline;
+
+}
